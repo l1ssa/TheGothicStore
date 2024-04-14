@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/img/indic.png" type="image/png" />
+    <title>May</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="assets/img/indic.png"
+              alt="Site Icon"
+              width="30"
+              height="30"
+              class="d-inline-block align-top"
+            />
+            May
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  ><i class="bi bi-house-heart"></i> Главная</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html"
+                  ><i class="bi bi-box2-heart"></i> Товары</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"
+                  ><i class="bi bi-heart-fill"></i> О нас</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <h1>May - это темный и таинственный уголок готической эстетики</h1>
+      <p>
+        Добро пожаловать в мрачный и загадочный мир!<br />Здесь вы найдете
+        уникальные вещи, вдохновленные средневековыми замками, темными лесами и
+        величественными соборами. Наши товары - это не просто предметы, это
+        настоящие произведения искусства, которые помогут вам выразить вашу
+        индивидуальность и привнести загадочность в ваш повседневный облик.
+      </p>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/g1.jpg" class="d-block w-100" alt="Slide 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/g2.jpg" class="d-block w-100" alt="Slide 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/g3.jpg" class="d-block w-100" alt="Slide 3" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section id="reviews">
+        <h2>Отзывы о нас</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card-reviews mb-4 shadow-sm">
+              <div class="review-body">
+                <p class="card-text">
+                  "Этот магазин - настоящий рай для тех, кто поклоняется
+                  готическому стилю. Здесь можно найти все, что нужно для
+                  создания образа, который привлечет внимание всех вокруг!"
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">Павук Павукович</small>
+                  <small class="text-muted">01.01.2024</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card-reviews mb-4 shadow-sm">
+              <div class="review-body">
+                <p class="card-text">
+                  "Я просто обожаю ассортимент этого магазина - тут можно найти
+                  так много интересных и необычных вещей, которые помогут
+                  выделиться из толпы и подчеркнуть свою индивидуальность."
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">Cats</small>
+                  <small class="text-muted">15.04.2024</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card-reviews mb-4 shadow-sm">
+              <div class="review-body">
+                <p class="card-text">
+                  "Магазин не перестает радовать своими новинками - каждый раз
+                  захожу сюда и нахожу что-то новенькое и уникальное. Очень
+                  рада, что есть такое место, где можно находить вдохновение и
+                  самовыражаться через одежду."
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">Паутинка</small>
+                  <small class="text-muted">03.03.2024</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
